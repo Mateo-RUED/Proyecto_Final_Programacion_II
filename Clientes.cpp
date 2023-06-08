@@ -26,7 +26,7 @@ Clientes::Clientes() {
 
 }
 
-int Clientes::getNumeroCliente() {
+int Clientes::getNumeroCliente() const {
     return nro_cliente;
 }
 
