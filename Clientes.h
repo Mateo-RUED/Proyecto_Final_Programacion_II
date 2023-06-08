@@ -20,7 +20,7 @@ public:
     Clientes(int _nro_cliente, std::string _nombre, std::string _apellido, std::string _tipo, int _anio, std::string _estado);
 
 
-    int getNumeroCliente();
+    int getNumeroCliente() const;
     void setNumeroCliente(int _numeroCliente);
     string getNombre();
     void setNombre(string _nombre);

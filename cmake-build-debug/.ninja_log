@@ -1,5 +1,23 @@
 # ninja log v5
-18	926	7076252700000000	CMakeFiles/Proyecto_Final.dir/main.cpp.obj	49ed1e8ac7e9c83
-425	2569	7076248900000000	CMakeFiles/Proyecto_Final.dir/Clientes.cpp.obj	261a313675e4ebea
-413	2616	7076248900000000	CMakeFiles/Proyecto_Final.dir/Archivos.cpp.obj	abdacab89348d0c6
-928	1642	7076252720000000	Proyecto_Final.exe	e3ed02748376719f
+6	1179	7080512518947662	CMakeFiles/Proyecto_Final.dir/main.cpp.obj	d6c17d628a07a07c
+30	721	7079301637041452	CMakeFiles/Proyecto_Final.dir/Clientes.cpp.obj	159df41e7c355c7d
+40	1297	7080509841348672	CMakeFiles/Proyecto_Final.dir/Archivos.cpp.obj	b7a1fd65fc5714be
+1180	1482	7080512521960616	Proyecto_Final.exe	7eacabf9f3272762
+44	256	7079257121939873	CMakeFiles/Proyecto_Final.dir/Transacciones.cpp.obj	6ce9ad26b3107ace
+34	1393	7080512800996437	CMakeFiles/Proyecto_Final.dir/Archivos.cpp.obj	b7a1fd65fc5714be
+1394	1553	7080512802563487	Proyecto_Final.exe	7eacabf9f3272762
+13	536	7080513442496095	CMakeFiles/Proyecto_Final.dir/main.cpp.obj	d6c17d628a07a07c
+537	723	7080513444298798	Proyecto_Final.exe	7eacabf9f3272762
+21	1159	7080516771000296	CMakeFiles/Proyecto_Final.dir/Archivos.cpp.obj	b7a1fd65fc5714be
+1160	1345	7080516772919894	Proyecto_Final.exe	7eacabf9f3272762
+34	1571	7080517780090002	CMakeFiles/Proyecto_Final.dir/Archivos.cpp.obj	b7a1fd65fc5714be
+1574	1941	7080517783802766	Proyecto_Final.exe	7eacabf9f3272762
+20	1245	7080518614813311	CMakeFiles/Proyecto_Final.dir/Archivos.cpp.obj	b7a1fd65fc5714be
+1249	1487	7080518617378064	Proyecto_Final.exe	7eacabf9f3272762
+26	1476	7080519747363374	CMakeFiles/Proyecto_Final.dir/Archivos.cpp.obj	b7a1fd65fc5714be
+1477	1641	7080519748980418	Proyecto_Final.exe	7eacabf9f3272762
+20	1433	7080524561406786	CMakeFiles/Proyecto_Final.dir/main.cpp.obj	d6c17d628a07a07c
+38	1489	7080524562011294	CMakeFiles/Proyecto_Final.dir/Archivos.cpp.obj	b7a1fd65fc5714be
+1489	1680	7080524563849031	Proyecto_Final.exe	7eacabf9f3272762
+31	974	7080526428061075	CMakeFiles/Proyecto_Final.dir/main.cpp.obj	d6c17d628a07a07c
+975	1173	7080526429959425	Proyecto_Final.exe	7eacabf9f3272762

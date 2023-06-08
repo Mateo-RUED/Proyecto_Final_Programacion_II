@@ -13,28 +13,31 @@ class Archivos{
     vector<Transacciones> vector_transacciones;
     vector<Clientes> vector_clientes;
 
+    string palabras_trans[7];
+    string palabras[6];
+
+    int cantidadClientes_nuevos;
     int cantidadClientes;
     int cantidadTransacciones;
+
 public:
 
-    void agregar_nuevo_cliente(Clientes _nuevocliente);
-    void baja_cliente(int Nro_Cliente);
+    void agregar_nuevo_cliente();
+    void baja_cliente();
 
     void cliente_actualizado();
+    void cliente_actualizado_nuevo();
+    void consulta_de_datos_por_numero_cliente();
 
-    void consulta_de_datos_por_numero_cliente(int numero_cliente);
-
-
-    void agregar_nueva_transaccion(Transacciones _nuevaTransaccion);
-    void transaccion_por_cliente(int numero_cliente);
-    void transaccion_por_dia(int _dia);
-    void transaccion_por_dia_mes(int _dia, int _mes);
-    void transaccion_por_dia_mes_anio(int _dia, int _mes, int _anio);
+    void consulta_cliente_total();
+    void agregar_nueva_transaccion();
+    void consulta_transaccion_por_cliente();
+    void consulta_transaccion_6_meses();
+    void consulta_transaccion_anio();
+    void consulta_transaccion_total();
 
     void transaccion_actualizado();
-
-
-
+    void transaccion_actualizado_nuevo();
 
 };
 

@@ -1,4 +1,4 @@
-# Install script for directory: D:/Unviersidad/2_Segundo ano/programcion 2/Proyecto Final
+# Install script for directory: C:/Users/Win-10/Desktop/Proyecto_Final
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Unviersidad/2_Segundo ano/programcion 2/Proyecto Final/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Win-10/Desktop/Proyecto_Final/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

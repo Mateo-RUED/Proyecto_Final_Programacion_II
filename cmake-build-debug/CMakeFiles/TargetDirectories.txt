@@ -1,3 +1,3 @@
-D:/Unviersidad/2_Segundo ano/programcion 2/Proyecto Final/cmake-build-debug/CMakeFiles/Proyecto_Final.dir
-D:/Unviersidad/2_Segundo ano/programcion 2/Proyecto Final/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Unviersidad/2_Segundo ano/programcion 2/Proyecto Final/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Win-10/Desktop/Proyecto_Final/cmake-build-debug/CMakeFiles/Proyecto_Final.dir
+C:/Users/Win-10/Desktop/Proyecto_Final/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Win-10/Desktop/Proyecto_Final/cmake-build-debug/CMakeFiles/rebuild_cache.dir
