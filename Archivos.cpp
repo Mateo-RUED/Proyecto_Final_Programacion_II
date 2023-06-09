@@ -279,16 +279,16 @@ void Archivos::consulta_transaccion_6_meses() {
     int periodo, periodo_1;
 
 
-    cout<<"Ingrese el año del periodo :"<<endl;
-    cin>>anio;
-    cout<<"Ingrese el periodo del ao al que quiere consultar (1 = primero, 2 = segundo) :"<<endl;
-    cin>>periodo;
-
+    cout << "Ingrese el año del periodo :" << endl;
+    cin >> anio;
+    cout << "Ingrese el periodo del ao al que quiere consultar (1 = primero, 2 = segundo) :" << endl;
+    cin >> periodo;
 
 
     for (int i=0; i<vector_transacciones.size(); i++){
 
         if(vector_transacciones[i].get_mes()<=6){
+
 
             periodo_1=1;
 
@@ -309,7 +309,7 @@ void Archivos::consulta_transaccion_6_meses() {
             cout <<"tipo: " <<vector_transacciones[i].get_tipo() << endl;
             cout << "fecha: "<<vector_transacciones[i].get_dia()<<"/";
             cout << vector_transacciones[i].get_mes()<<"/";
-            cout << vector_transacciones[i].get_anio()<<"/"<< endl;
+            cout << vector_transacciones[i].get_anio()<<endl;
             cout << endl;
 
         }
@@ -334,8 +334,14 @@ void Archivos::consulta_transaccion_anio() {
             cout <<"cantidad: "<< vector_transacciones[i].get_cantidad() <<endl;
             cout <<"tipo: " <<vector_transacciones[i].get_tipo() << endl;
             cout << "fecha: "<<vector_transacciones[i].get_dia()<<"/";
+            cout << "*****INFORMACION DE TRANSACCIONES EN EL DIA " << vector_transacciones[i].get_dia()
+                 << " Y EL MES "<< vector_transacciones[i].get_mes()<<"  :*****"<< endl;
+            cout << "numero de cliente :"<< vector_transacciones[i].get_nro_cliente();
+            cout <<"cantidad :"<< vector_transacciones[i].get_cantidad() <<endl;
+            cout <<"tipo :" <<vector_transacciones[i].get_tipo() << endl;
+            cout << "fecha:"<<vector_transacciones[i].get_dia()<<"/";
             cout << vector_transacciones[i].get_mes()<<"/";
-            cout << vector_transacciones[i].get_anio()<<"/"<< endl;
+            cout << vector_transacciones[i].get_anio()<< endl;
             cout << endl;
 
         }
@@ -351,14 +357,16 @@ void Archivos::consulta_transaccion_total() {
             cout << "*****INFORMACION DE TRANSACCIONES TOTAL " << vector_transacciones[i].get_dia()<<"/"<< vector_transacciones[i].get_mes()<<"/"<< vector_transacciones[i].get_anio()
                  << "  :*****" << endl;
 
+
             cout << "numero de cliente: "<< vector_transacciones[i].get_nro_cliente()<<endl;
             cout <<"cantidad: "<< vector_transacciones[i].get_cantidad() <<endl;
             cout <<"tipo: " <<vector_transacciones[i].get_tipo() << endl;
-            cout << "fecha: "<<vector_transacciones[i].get_dia()<<"/";
-            cout << vector_transacciones[i].get_mes()<<"/";
-            cout << vector_transacciones[i].get_anio()<<"/"<< endl;
-            cout << endl;
+        cout << "fecha: "<<vector_transacciones[i].get_dia()<<"/";
+        cout << vector_transacciones[i].get_mes()<<"/";
+        cout << vector_transacciones[i].get_anio()<<endl;
+        cout << endl;
             cout <<endl;
+
 
     }
 
@@ -410,7 +418,6 @@ void Archivos::agregar_nueva_transaccion() {
         vector_transacciones.push_back(_nuevaTransaccion);
 
     }
-
 
 }
 
@@ -472,6 +479,7 @@ void Archivos::consulta_cliente_total() {
 
         cout << "*****INFORMACION DE TODOS LOS CLIENTES ******"<<endl;
 
+        cout<<"Numero de Cliente :"<<vector_clientes[i].getNumeroCliente();
         cout<<"Nombre: "<<vector_clientes[i].getNombre()<<endl;
         cout<<"Apellido: "<<vector_clientes[i].getApellido()<<endl;
         cout<<"Tipo: "<<vector_clientes[i].getTipo()<<endl;

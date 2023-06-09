@@ -7,8 +7,6 @@ using namespace std;
 
 void Menu(){
     cout<<"**Banco UCC**"<<endl;
-    //cout<<"Sleccione una opcion: "<<endl;
-    //cout<<""<<endl;
     cout<<"1.Dar de alta a un cliente nuevo"<<endl; //*
     cout<<"2.Consulta de cliente por numero de cliente"<<endl;
     cout<<"3.Consulta de transacciones"<<endl;//*
